@@ -1,0 +1,27 @@
+{
+    "name": "express-demo",
+    "version": "1.0.0",
+    "description": "This is a express demo",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gerryli0214/express-demo.git"
+    },
+    "keywords": [
+        "pm2",
+        "express"
+    ],
+    "author": "gerry",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gerryli0214/express-demo/issues"
+    },
+    "homepage": "https://github.com/gerryli0214/express-demo#readme",
+    "devDependencies": {
+        "express": "^4.16.4"
+    }
+}
