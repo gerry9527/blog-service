@@ -1,3 +1,6 @@
+/**
+ * 连接数据库
+ */
 const mysql = require('mysql');
 const connection = mysql.createConnection({
     host: 'localhost',
@@ -8,7 +11,7 @@ const connection = mysql.createConnection({
 
 connection.connect((err) => {
     if (err) {
-        console.error(`链接数据库失败:${err.stack}`);
+        console.error(`连接数据库失败:${err.stack}`);
         return;
     }
 
