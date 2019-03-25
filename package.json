@@ -1,27 +1,30 @@
 {
-    "name": "express-demo",
-    "version": "1.0.0",
-    "description": "This is a express demo",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node app.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/gerryli0214/express-demo.git"
-    },
-    "keywords": [
-        "pm2",
-        "express"
-    ],
-    "author": "gerry",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/gerryli0214/express-demo/issues"
-    },
-    "homepage": "https://github.com/gerryli0214/express-demo#readme",
-    "devDependencies": {
-        "express": "^4.16.4"
-    }
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "This is a my blog service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerryli0214/express-demo.git"
+  },
+  "keywords": [
+    "pm2",
+    "express"
+  ],
+  "author": "gerry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerryli0214/express-demo/issues"
+  },
+  "homepage": "https://github.com/gerryli0214/express-demo#readme",
+  "devDependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0"
+  }
 }
