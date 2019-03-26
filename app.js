@@ -6,7 +6,7 @@ const users = require('./router/user.js');
 const index = require('./router/index');
 const db = require('./db')
 
-app.use(logger('dev'));
+app.use(logger(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] ":referrer" ":user-agent"'));
 app.use(cookieParse());
 app.use('/', index);
 app.use('/users', users);
