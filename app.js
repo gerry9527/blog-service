@@ -4,7 +4,7 @@ const cookieParse = require('cookie-parser');
 const app = express();
 const users = require('./router/user.js');
 const index = require('./router/index');
-const db = require('./db')
+const db = require('./db.config')
 
 app.use(logger(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] ":referrer" ":user-agent"'));
 app.use(cookieParse());

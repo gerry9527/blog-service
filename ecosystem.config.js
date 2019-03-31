@@ -8,7 +8,7 @@ module.exports = {
         instances: 1,
         autorestart: true,
         watch: false,
-        output: './logs/out.log',
+        output: './logs/out.log', //日志输出位置
         error: './logs/error.log',
         log: './logs/combined.outerr.log',
         log_date_format: 'YYYY-MM-DD HH：mm: ss', //日志时间戳格式

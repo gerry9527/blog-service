@@ -5,7 +5,7 @@ class Message {
     constructor(msg, code, content) {
         this.msg = msg;
         this.code = code || 0;
-        this.content = content;
+        this.content = content || '';
     }
 
     getMsg() {
