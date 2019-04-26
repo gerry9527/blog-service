@@ -5,11 +5,16 @@ const transcation = require('../utils/transaction.config');
 const connectHandler = require('../db.config');
 const jwt = require('jsonwebtoken');
 
+let bodyParser = require('body-parser')
+// create application/json parser
+let jsonParser = bodyParser.json()
+ 
 /**
  * 用户登录
  */
-router.post('/login', (req, res, next) => {
-    let bean = req.query;
+router.use('/login', jsonParser,(req, res, next) => {
+    console.log(req);
+    let bean = req.body;
     let msg = new MsgBean('登录失败', 1);
     if (!bean.username || !bean.password) {
         msg.setContent('用户名或密码错误');

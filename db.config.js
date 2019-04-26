@@ -22,5 +22,8 @@ const connectHandle = () => new Promise((resolve, reject) => {
         }
     })
 })
+// connectHandle().then(function() {
+//     console.log('tag', '')
+// })
 
 module.exports = connectHandle;
