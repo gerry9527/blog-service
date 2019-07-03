@@ -4,7 +4,6 @@ const utils = require('../utils/common.util');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    debugger;
     if (Object.is(req.method, 'option')) {
         next();
     }
@@ -17,6 +16,7 @@ router.all('*', function (req, res, next) {
     res.header("X-Powered-By", ' 3.2.1');
     res.header('Access-Control-Allow-Origin', "*");
     res.header('Access-Control-Allow-Credentials', true);
+    res.header("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, token,Authorization");
     next();
 });
 

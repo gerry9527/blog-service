@@ -1,7 +1,8 @@
 const connectHandler = require('../db.config');
 
-module.exports = transcation = {
+const transcation = {
     handlerOperation: async(sql, msg, res) => {
+        debugger
         const connection = await connectHandler();
         //开启事务
         connection.beginTransaction(err => {
@@ -17,7 +18,7 @@ module.exports = transcation = {
                     if (e) {
                         msg.setContent(e.message);
                         return connection.rollback(() => {
-                            console.log('插入失败，数据回滚');
+                            console.log('执行失败，数据回滚');
                             res.send(msg);
                         })
                     } else {
@@ -39,3 +40,5 @@ module.exports = transcation = {
         })
     }
 }
+
+module.exports = transcation;
