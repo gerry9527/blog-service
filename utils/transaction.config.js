@@ -2,7 +2,6 @@ const connectHandler = require('../db.config');
 
 const transcation = {
     handlerOperation: async(sql, msg, res) => {
-        debugger
         const connection = await connectHandler();
         //开启事务
         connection.beginTransaction(err => {

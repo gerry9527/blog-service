@@ -14,7 +14,6 @@ let jsonParser = bodyParser.json()
  * 用户登录
  */
 router.use('/login', jsonParser,(req, res, next) => {
-    debugger
     console.log(req);
     let bean = req.body;
     let authorization = req.headers.authorization?req.headers.authorization.trim():"";
