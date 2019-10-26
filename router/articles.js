@@ -16,7 +16,6 @@ let jsonParser = bodyParser.json()
  * 用户注册
  */
 router.post('/imageUpload',(req, res, next) => {
-        debugger
         let form = new formidable.IncomingForm();
         form.encoding = 'utf-8';
         //上传到服务器指定文件夹

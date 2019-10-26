@@ -8,17 +8,13 @@ const query = {
      * @param {*} sql
      * 
      */
-    handleSql: async function(sql, msg){
+    handleSql: async function(sql){
         const connection = await connectHandler();
         return new Promise(function(resolve,reject){
             connection.query(sql,function(error,results,fields){
                 if(error){
-                    msg.setCode(1);
-                    msg.setMsg("查询失败！");
                     reject(error);
                 }else{
-                    msg.setCode(0);
-                    msg.setMsg("查询成功！");
                     resolve(results);
                 }
                 connection.release();
