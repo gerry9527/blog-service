@@ -24,6 +24,7 @@
   "homepage": "https://github.com/gerry9527/blog-service#readme",
   "devDependencies": {
     "body-parser": "^1.18.3",
+    "connect-history-api-fallback": "^1.6.0",
     "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
