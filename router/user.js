@@ -23,6 +23,7 @@ router.use('/login', jsonParser, async (req, res, next) => {
         res.send(msg);
         return;
     }
+    // 检测用户名、密码是否合法
     let checkValidSql = `select count(*) as count from user where username = '${bean.username}' and password = '${bean.password}';`
     let result = await checkUsernameRepeat(checkValidSql).catch(err => {
         if (err) {
@@ -36,7 +37,6 @@ router.use('/login', jsonParser, async (req, res, next) => {
         let secretOrPrivateKey = 'test';
         if(authorization){//已经生成令牌
             jwt.verify(authorization, secretOrPrivateKey, function (err, data) {
-                debugger
                 if (err) console.log(err)
                 if(data.name && data.name == bean.username){
                     msg.setCode(0);
@@ -54,9 +54,15 @@ router.use('/login', jsonParser, async (req, res, next) => {
             let token = jwt.sign(content, secretOrPrivateKey, {
                 expiresIn: 24 * 60 * 60
             });
+            debugger
             msg.setContent({ token });
-            let sql = `update user set token = '${token}' where username = '${bean.username}'`;
-            transcation.handlerOperation(sql, msg, res);
+            msg.setCode(0)
+            msg.setMsg('登录成功')
+            // 将用户token放到缓存中
+            global.myCache.set(token, bean.username)
+            res.send(msg)
+            // let sql = `update user set token = '${token}' where username = '${bean.username}'`;
+            // transcation.handlerOperation(sql, msg, res);
         }
     } else {
         msg.setContent('用户名或密码错误！');
@@ -115,7 +121,6 @@ router.get('/info', (req, res, next) => {
     const sql = `select user.id as 'id',username,password,email,token,roles,text as 'rolesname' from user
         left join roles on user.roles = roles.code  where token = '${bean.token}'`;
     queryConfig.handleSql(sql).then(function(result){
-        debugger
         if(result && result[0]){
             result = result[0];
             msg.setContent(result);

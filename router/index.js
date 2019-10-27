@@ -10,9 +10,15 @@ router.all('*', function (req, res, next) {
     res.header('Access-Control-Allow-Origin', "*");
     res.header('Access-Control-Allow-Credentials', true);
     res.header("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers,token,Authorization");
-    if (req.method == 'OPTIONS') {
+    if (req.method === 'OPTIONS') {
         res.send(200); // 意思是，在正常的请求之前，会发送一个验证，是否可以请求。
     } else {
+        // 获取到token信息
+        if (req.path !== '/users/login') {
+            const authorization = req.headers.authorization
+            let users = global.myCache.get(authorization)
+        }
+        
         next();
     }
 });
