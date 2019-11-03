@@ -1,0 +1,1329 @@
+[2019-11-02T21:32:42.724] [INFO] cheese - Cheese is Comté.
+[2019-11-02T21:32:42.727] [WARN] cheese - Cheese is quite smelly.
+[2019-11-02T21:32:42.727] [ERROR] cheese - Cheese is too ripe!
+[2019-11-02T21:32:42.727] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-11-02T21:33:19.071] [INFO] cheese - Cheese is Comté.
+[2019-11-02T21:33:19.074] [WARN] cheese - Cheese is quite smelly.
+[2019-11-02T21:33:19.074] [ERROR] cheese - Cheese is too ripe!
+[2019-11-02T21:33:19.074] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2019-11-02T21:33:19.078] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T21:35:06.990] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T21:40:03.278] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T21:40:18.461] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T21:40:19.370] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T21:44:17.886] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T21:46:24.857] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T21:55:56.399] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T21:56:07.458] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T21:56:07.460] [INFO] cheese - [object Object]
+[2019-11-02T21:58:24.388] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T21:58:29.842] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T21:58:29.847] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： Sat Nov 02 2019 21:58:29 GMT+0800 (GMT+08:00)
+[2019-11-02T22:00:31.440] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:00:34.096] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:00:34.099] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572703234099
+[2019-11-02T22:09:37.966] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:09:45.689] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:09:53.891] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:09:53.895] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572703793895
+[2019-11-02T22:10:58.691] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:11:12.151] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:11:12.273] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-02T22:11:13.765] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:11:13.781] [INFO] cheese - Message {
+  msg: '登录成功',
+  code: 0,
+  content:
+   { token:
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJpYXQiOjE1NzI3MDM4NzMsImV4cCI6MTU3Mjc5MDI3M30.DiRVaRAjnSIFzFNOZRMNY_CucI2sHeP9m7lL4ZJ4CZA' } }
+[2019-11-02T22:11:52.855] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:11:52.856] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572703912856
+[2019-11-02T22:12:36.525] [ERROR] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'asdad' in 'field list'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'asdad\' in \'field list\'',
+  sqlState: '42S22',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) \n            values (asdad, sadasd, 1, admin, 1572703915599)' }
+[2019-11-02T22:13:02.385] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:13:03.718] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:13:03.721] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572703983721
+[2019-11-02T22:13:05.678] [ERROR] cheese - 用户不存在
+[2019-11-02T22:14:21.860] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:14:27.715] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:14:27.720] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704067720
+[2019-11-02T22:14:29.639] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-02T22:14:43.016] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:14:52.409] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:14:52.413] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704092413
+[2019-11-02T22:14:56.020] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-02T22:15:21.295] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:15:48.391] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:15:49.852] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:15:49.854] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704149854
+[2019-11-02T22:15:51.318] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-02T22:17:03.967] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:17:08.571] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:17:08.575] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704228575
+[2019-11-02T22:17:08.613] [ERROR] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'undefined\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = undefined' }
+[2019-11-02T22:17:13.143] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-02T22:17:40.406] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:17:42.857] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:17:42.860] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704262860
+[2019-11-02T22:17:42.861] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-02T22:18:00.503] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:18:02.582] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:18:02.584] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704282584
+[2019-11-02T22:18:02.586] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-02T22:21:01.071] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:21:03.147] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:21:03.149] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704463149
+[2019-11-02T22:21:03.151] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-02T22:21:50.307] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:21:50.361] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-02T22:21:52.083] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:21:52.098] [INFO] cheese - 登录成功
+[2019-11-02T22:21:56.654] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:21:56.655] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704516654
+[2019-11-02T22:21:56.666] [ERROR] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-02T22:22:03.486] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) 
+            values (asdad, sadasdasd, 1, admin, 1572704521123)
+[2019-11-02T22:22:04.829] [ERROR] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'asdad' in 'field list'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'asdad\' in \'field list\'',
+  sqlState: '42S22',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) \n            values (asdad, sadasdasd, 1, admin, 1572704521123)' }
+[2019-11-02T22:25:20.211] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:25:20.212] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704720212
+[2019-11-02T22:25:20.219] [ERROR] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-02T22:26:43.783] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) 
+            values (asdad, sadasdasd, 1, admin, 1572704722982)
+[2019-11-02T22:26:43.793] [ERROR] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'asdad' in 'field list'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'asdad\' in \'field list\'',
+  sqlState: '42S22',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) \n            values (asdad, sadasdasd, 1, admin, 1572704722982)' }
+[2019-11-02T22:28:49.058] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:29:03.750] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:29:15.392] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:29:15.495] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-02T22:29:16.763] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:29:16.773] [INFO] cheese - 登录成功
+[2019-11-02T22:29:21.997] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:29:21.998] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704961998
+[2019-11-02T22:29:22.010] [WARN] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-02T22:29:24.314] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('123123', '123123', '1', 'admin', 1572704964314)
+[2019-11-02T22:29:24.328] [ERROR] cheese - { Error: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: 'Field \'id\' doesn\'t have a default value',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'123123\', \'123123\', \'1\', \'admin\', 1572704964314)' }
+[2019-11-02T22:29:57.073] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:29:57.074] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572704997074
+[2019-11-02T22:29:57.081] [WARN] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-02T22:30:00.241] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('123123', '123123', '1', 'admin', 1572705000241)
+[2019-11-02T22:30:00.249] [ERROR] cheese - { Error: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: 'Field \'id\' doesn\'t have a default value',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'123123\', \'123123\', \'1\', \'admin\', 1572705000241)' }
+[2019-11-02T22:40:53.104] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:40:53.105] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572705653105
+[2019-11-02T22:40:53.110] [WARN] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-02T22:40:55.088] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('123123', '123123', '1', 'admin', 1572705655088)
+[2019-11-02T22:40:55.094] [ERROR] cheese - { Error: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: 'Field \'id\' doesn\'t have a default value',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'123123\', \'123123\', \'1\', \'admin\', 1572705655088)' }
+[2019-11-02T22:41:42.168] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:41:42.169] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572705702169
+[2019-11-02T22:41:42.178] [WARN] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-02T22:41:44.163] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('123123', '123123', '1', 'admin', 1572705704163)
+[2019-11-02T22:41:44.172] [ERROR] cheese - { Error: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: 'Field \'id\' doesn\'t have a default value',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'123123\', \'123123\', \'1\', \'admin\', 1572705704163)' }
+[2019-11-02T22:41:56.701] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:42:14.934] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:42:15.023] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-02T22:42:16.524] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:42:16.541] [INFO] cheese - 登录成功
+[2019-11-02T22:42:25.450] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:42:25.451] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572705745451
+[2019-11-02T22:42:25.462] [WARN] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-02T22:42:27.297] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('hghhh', 'jhhhhgg', '1', 'admin', 1572705747296)
+[2019-11-02T22:42:27.302] [ERROR] cheese - { Error: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: 'Field \'id\' doesn\'t have a default value',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'hghhh\', \'jhhhhgg\', \'1\', \'admin\', 1572705747296)' }
+[2019-11-02T22:54:23.380] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:54:23.380] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572706463380
+[2019-11-02T22:54:23.384] [WARN] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-02T22:54:25.153] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('hghhh', 'jhhhhgg', '1', 'admin', 1572706465153)
+[2019-11-02T22:54:25.158] [ERROR] cheese - { Error: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: 'Field \'id\' doesn\'t have a default value',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'hghhh\', \'jhhhhgg\', \'1\', \'admin\', 1572706465153)' }
+[2019-11-02T22:54:34.983] [INFO] cheese - Example app listening on port 3000!
+[2019-11-02T22:54:56.752] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:54:56.844] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-02T22:54:57.735] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:54:57.751] [INFO] cheese - 登录成功
+[2019-11-02T22:55:05.091] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-02T22:55:05.092] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572706505092
+[2019-11-02T22:55:05.103] [WARN] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-02T22:55:06.621] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('123123', '123123123', '1', 'admin', 1572706506621)
+[2019-11-02T22:55:06.626] [ERROR] cheese - { Error: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: 'Field \'id\' doesn\'t have a default value',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'123123\', \'123123123\', \'1\', \'admin\', 1572706506621)' }
+[2019-11-03T08:42:37.766] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T08:45:23.027] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T08:45:23.031] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572741923031
+[2019-11-03T08:45:23.033] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T08:46:50.464] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T08:46:50.588] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-03T08:46:51.569] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T08:46:51.584] [INFO] cheese - 登录成功
+[2019-11-03T08:46:56.116] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T08:46:56.117] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572742016117
+[2019-11-03T08:46:56.127] [WARN] cheese - { Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: 'Unknown column \'admin\' in \'where clause\'',
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select count(*) from category where name = admin' }
+[2019-11-03T08:47:07.193] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('asdasd', 'asdsad', '1', 'admin', 1572742022993)
+[2019-11-03T08:47:07.204] [ERROR] cheese - { Error: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: 'Field \'id\' doesn\'t have a default value',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'asdasd\', \'asdsad\', \'1\', \'admin\', 1572742022993)' }
+[2019-11-03T08:48:52.454] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T08:49:02.858] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T08:49:02.969] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-03T08:49:03.795] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T08:49:03.811] [INFO] cheese - 登录成功
+[2019-11-03T08:49:08.854] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T08:49:08.855] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572742148854
+[2019-11-03T08:49:12.898] [INFO] cheese -   执行sql: insert into category(name, description, status, author, createTime) values ('asdasdasd', 'asdasd', '1', 'admin', 1572742152898)
+[2019-11-03T08:49:12.907] [ERROR] cheese - { Error: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: 'Field \'id\' doesn\'t have a default value',
+  sqlState: 'HY000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'asdasdasd\', \'asdasd\', \'1\', \'admin\', 1572742152898)' }
+[2019-11-03T09:19:55.397] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T09:20:19.568] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T09:20:19.696] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-03T09:20:20.030] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T09:20:20.046] [INFO] cheese - 登录成功
+[2019-11-03T09:20:24.808] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T09:20:24.809] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572744024809
+[2019-11-03T09:20:27.720] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('asdasd', 'asdasdasd', '1', 'admin', 1572744027719)
+[2019-11-03T09:25:29.847] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T10:29:10.461] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T10:29:38.594] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T10:29:40.933] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:29:40.935] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572748180935
+[2019-11-03T10:29:40.937] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T10:29:41.749] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:29:41.749] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572748181749
+[2019-11-03T10:29:41.750] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T10:29:41.896] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:29:41.897] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572748181897
+[2019-11-03T10:29:41.898] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T10:29:47.595] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:29:47.596] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572748187596
+[2019-11-03T10:29:47.597] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T10:29:48.071] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:29:48.072] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572748188072
+[2019-11-03T10:29:48.073] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T10:29:48.252] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:29:48.252] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572748188252
+[2019-11-03T10:29:48.254] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T10:29:48.419] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:29:48.419] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572748188419
+[2019-11-03T10:29:48.421] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T10:29:55.997] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:29:55.998] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572748195998
+[2019-11-03T10:29:55.999] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T10:30:36.107] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:30:36.108] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572748236108
+[2019-11-03T10:30:42.521] [INFO] cheese - 执行sql:select * from category where name='undefined' and status='undefined'
+[2019-11-03T10:30:48.407] [INFO] cheese - 查询成功
+[2019-11-03T10:30:48.408] [ERROR] cheese - TypeError: res.send is not a function
+    at query.handleSql.then.res (f:\project\blog-service\router\category.js:68:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T10:31:35.920] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:31:40.631] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T10:31:50.461] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:31:50.464] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572748310464
+[2019-11-03T10:31:52.799] [INFO] cheese - 执行sql:select * from category where name='undefined' and status='undefined'
+[2019-11-03T10:44:44.445] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T10:54:45.812] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T10:55:02.095] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T10:55:05.008] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:55:05.011] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572749705011
+[2019-11-03T10:55:22.306] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T10:55:44.243] [INFO] cheese - 查询成功
+[2019-11-03T10:55:46.380] [ERROR] cheese - TypeError: res.send is not a function
+    at query.handleSql.then.res (f:\project\blog-service\router\category.js:79:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T10:56:07.159] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T10:56:07.160] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572749767160
+[2019-11-03T10:56:14.753] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:06:04.132] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:06:08.866] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:06:08.868] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572750368868
+[2019-11-03T11:06:20.514] [INFO] cheese - 查询总记录条数：select count (*) from category
+[2019-11-03T11:07:22.390] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:07:55.632] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:08:09.335] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:08:09.339] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572750489338
+[2019-11-03T11:09:17.166] [INFO] cheese - 查询总记录条数：select count (*) from category
+[2019-11-03T11:10:39.067] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:10:53.435] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:10:53.440] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572750653440
+[2019-11-03T11:10:53.442] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T11:11:12.606] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:11:12.707] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-03T11:11:13.532] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:11:13.546] [INFO] cheese - 登录成功
+[2019-11-03T11:11:27.700] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:11:27.700] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572750687700
+[2019-11-03T11:11:27.706] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('花会受到', '氨基酸大货时间的哈技术的', '1', 'admin', 1572750687706)
+[2019-11-03T11:11:27.725] [ERROR] cheese - { Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (f:\project\blog-service\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (f:\project\blog-service\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Protocol._enqueue (f:\project\blog-service\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (f:\project\blog-service\node_modules\mysql\lib\Connection.js:201:25)
+    at f:\project\blog-service\utils\query.config.js:14:24
+    at new Promise (<anonymous>)
+    at Object.handleSql (f:\project\blog-service\utils\query.config.js:13:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: 'Duplicate entry \'0\' for key \'PRIMARY\'',
+  sqlState: '23000',
+  index: 0,
+  sql:
+   'insert into category(name, description, status, author, createTime) values (\'花会受到\', \'氨基酸大货时间的哈技术的\', \'1\', \'admin\', 1572750687706)' }
+[2019-11-03T11:13:27.631] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:13:27.631] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572750807631
+[2019-11-03T11:13:27.638] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('花会受到', '氨基酸大货时间的哈技术的', '1', 'admin', 1572750807638)
+[2019-11-03T11:13:27.657] [INFO] cheese - 插入成功
+[2019-11-03T11:13:27.657] [ERROR] cheese - TypeError: res.send is not a function
+    at query.handleSql.then.res (f:\project\blog-service\router\category.js:42:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T11:13:34.534] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:13:37.679] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:13:37.681] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572750817681
+[2019-11-03T11:13:37.682] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T11:13:59.913] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:13:59.995] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-03T11:14:08.509] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:14:08.517] [INFO] cheese - 登录成功
+[2019-11-03T11:14:22.191] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:14:22.192] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572750862192
+[2019-11-03T11:14:22.198] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('asdasd', 'asdasdasdasd', '1', 'admin', 1572750862198)
+[2019-11-03T11:14:22.216] [INFO] cheese - 插入成功
+[2019-11-03T11:14:22.216] [ERROR] cheese - TypeError: res.send is not a function
+    at query.handleSql.then.res (f:\project\blog-service\router\category.js:42:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T11:14:43.422] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:14:43.422] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572750883422
+[2019-11-03T11:14:43.431] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('asdasd', 'asdasdasdasd', '1', 'admin', 1572750883431)
+[2019-11-03T11:14:43.451] [INFO] cheese - 插入成功
+[2019-11-03T11:14:43.451] [ERROR] cheese - TypeError: res.send is not a function
+    at query.handleSql.then.res (f:\project\blog-service\router\category.js:42:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T11:15:48.591] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:17:00.031] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:17:00.096] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-03T11:17:07.529] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:17:07.539] [INFO] cheese - 登录成功
+[2019-11-03T11:17:14.257] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:17:14.267] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-03T11:17:16.321] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:17:16.331] [INFO] cheese - 登录成功
+[2019-11-03T11:17:33.867] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:17:33.873] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-03T11:17:40.315] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:17:40.323] [INFO] cheese - 登录成功
+[2019-11-03T11:18:17.512] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:18:17.520] [INFO] cheese - Message { msg: '操作成功！', code: 0, content: '验证token成功！' }
+[2019-11-03T11:20:34.952] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:20:52.932] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:20:53.030] [INFO] cheese - 登录成功
+[2019-11-03T11:21:04.915] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:21:04.917] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572751264917
+[2019-11-03T11:21:04.925] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('测试', '123456', '1', 'admin', 1572751264925)
+[2019-11-03T11:21:34.324] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:22:07.812] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:22:07.815] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572751327815
+[2019-11-03T11:22:07.816] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T11:22:31.054] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:22:31.156] [INFO] cheese - 登录成功
+[2019-11-03T11:22:48.307] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:22:48.308] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572751368308
+[2019-11-03T11:22:48.315] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('测试', '你说啥', '1', 'admin', 1572751368315)
+[2019-11-03T11:22:55.459] [INFO] cheese - 插入成功
+[2019-11-03T11:25:05.082] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:25:05.083] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572751505083
+[2019-11-03T11:25:05.091] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('测试9999', '哈哈哈哈', '1', 'admin', 1572751505091)
+[2019-11-03T11:25:08.363] [INFO] cheese - 插入成功
+[2019-11-03T11:26:13.968] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:26:13.969] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572751573969
+[2019-11-03T11:27:39.066] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:28:19.284] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:28:21.587] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:28:21.590] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572751701590
+[2019-11-03T11:28:27.033] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:31:51.535] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:31:51.536] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572751911536
+[2019-11-03T11:31:54.884] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:32:28.410] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:32:35.619] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:32:35.621] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572751955621
+[2019-11-03T11:32:44.485] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:33:20.348] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:33:25.139] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:33:25.142] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752005142
+[2019-11-03T11:33:31.396] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:34:05.033] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:34:05.035] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752045035
+[2019-11-03T11:34:08.844] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:34:29.063] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:34:30.892] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:34:30.895] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752070895
+[2019-11-03T11:34:34.118] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:35:36.320] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:35:40.340] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:35:40.342] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752140342
+[2019-11-03T11:35:43.261] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:35:46.974] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:36:00.346] [INFO] cheese - 查询成功
+[2019-11-03T11:39:25.992] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:39:39.497] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:39:40.879] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:39:40.882] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752380882
+[2019-11-03T11:39:40.883] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:39:40.930] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:39:40.938] [INFO] cheese - 查询成功
+[2019-11-03T11:40:16.670] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T11:40:20.150] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:40:20.152] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752420152
+[2019-11-03T11:40:20.153] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:40:20.181] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:40:20.186] [INFO] cheese - 查询成功
+[2019-11-03T11:43:05.783] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:43:05.784] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752585784
+[2019-11-03T11:43:05.785] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:43:05.796] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:43:05.800] [INFO] cheese - 查询成功
+[2019-11-03T11:43:10.989] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:43:10.989] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752590989
+[2019-11-03T11:43:10.990] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:43:10.994] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:43:10.997] [INFO] cheese - 查询成功
+[2019-11-03T11:43:12.129] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:43:12.129] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752592129
+[2019-11-03T11:43:12.129] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:43:12.134] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:43:12.140] [INFO] cheese - 查询成功
+[2019-11-03T11:43:25.105] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:43:25.106] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752605106
+[2019-11-03T11:43:25.106] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:43:25.112] [INFO] cheese - 执行sql:select * from category limit 0, 20
+[2019-11-03T11:43:25.118] [INFO] cheese - 查询成功
+[2019-11-03T11:43:29.400] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:43:29.401] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752609401
+[2019-11-03T11:43:29.401] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:43:29.405] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:43:29.410] [INFO] cheese - 查询成功
+[2019-11-03T11:43:35.903] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:43:35.904] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752615904
+[2019-11-03T11:43:35.904] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:43:35.908] [INFO] cheese - 执行sql:select * from category limit 0, 20
+[2019-11-03T11:43:35.914] [INFO] cheese - 查询成功
+[2019-11-03T11:44:15.264] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:44:15.264] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572752655264
+[2019-11-03T11:44:15.265] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T11:44:34.480] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:44:34.525] [INFO] cheese - 登录成功
+[2019-11-03T11:44:34.593] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:44:34.593] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752674593
+[2019-11-03T11:44:34.593] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:44:34.598] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:44:34.607] [INFO] cheese - 查询成功
+[2019-11-03T11:44:46.198] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:44:46.198] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572752686198
+[2019-11-03T11:44:46.203] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('刘小宝', '刘小宝你好啊', '1', 'admin', 1572752686203)
+[2019-11-03T11:44:46.211] [INFO] cheese - 插入成功
+[2019-11-03T11:44:49.237] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:44:49.237] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752689237
+[2019-11-03T11:44:49.237] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:44:49.246] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:44:49.253] [INFO] cheese - 查询成功
+[2019-11-03T11:45:36.755] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:45:36.756] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752736756
+[2019-11-03T11:45:36.757] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:45:36.766] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:45:36.773] [INFO] cheese - 查询成功
+[2019-11-03T11:45:36.952] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:45:36.953] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752736953
+[2019-11-03T11:45:36.953] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:45:36.959] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:45:36.964] [INFO] cheese - 查询成功
+[2019-11-03T11:45:37.143] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:45:37.143] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752737143
+[2019-11-03T11:45:37.144] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:45:37.152] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:45:37.158] [INFO] cheese - 查询成功
+[2019-11-03T11:45:37.321] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:45:37.321] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752737321
+[2019-11-03T11:45:37.322] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:45:37.330] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:45:37.337] [INFO] cheese - 查询成功
+[2019-11-03T11:45:37.521] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:45:37.522] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752737522
+[2019-11-03T11:45:37.522] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:45:37.530] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:45:37.538] [INFO] cheese - 查询成功
+[2019-11-03T11:45:39.347] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:45:39.348] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752739348
+[2019-11-03T11:45:39.348] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:45:39.353] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:45:39.360] [INFO] cheese - 查询成功
+[2019-11-03T11:47:35.582] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:47:35.582] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572752855582
+[2019-11-03T11:47:35.591] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('奥术大师多', '阿萨德鞍山市啊', '1', 'admin', 1572752855591)
+[2019-11-03T11:47:35.608] [INFO] cheese - 插入成功
+[2019-11-03T11:47:38.283] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:47:38.284] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752858284
+[2019-11-03T11:47:38.284] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:47:38.291] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:47:38.299] [INFO] cheese - 查询成功
+[2019-11-03T11:47:38.991] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:47:38.991] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752858991
+[2019-11-03T11:47:38.991] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:47:38.997] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:47:39.003] [INFO] cheese - 查询成功
+[2019-11-03T11:47:39.158] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:47:39.158] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752859158
+[2019-11-03T11:47:39.159] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:47:39.163] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:47:39.169] [INFO] cheese - 查询成功
+[2019-11-03T11:47:39.346] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:47:39.347] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752859347
+[2019-11-03T11:47:39.348] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:47:39.357] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:47:39.362] [INFO] cheese - 查询成功
+[2019-11-03T11:47:39.490] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:47:39.490] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752859490
+[2019-11-03T11:47:39.490] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:47:39.496] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:47:39.501] [INFO] cheese - 查询成功
+[2019-11-03T11:47:45.950] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:47:45.950] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752865950
+[2019-11-03T11:47:45.950] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:47:45.958] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:47:45.964] [INFO] cheese - 查询成功
+[2019-11-03T11:48:34.425] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:48:34.426] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572752914426
+[2019-11-03T11:48:34.432] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('奥术大师多', '阿萨德鞍山市啊', '1', 'admin', 1572752914432)
+[2019-11-03T11:48:34.449] [INFO] cheese - 插入成功
+[2019-11-03T11:48:36.529] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T11:48:36.529] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572752916529
+[2019-11-03T11:48:36.529] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T11:48:36.534] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T11:48:36.539] [INFO] cheese - 查询成功
+[2019-11-03T12:00:58.427] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T12:01:01.416] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:01:01.418] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572753661418
+[2019-11-03T12:01:01.420] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:01:01.445] [WARN] cheese - 查询数据为空！
+[2019-11-03T12:01:01.446] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:01:01.452] [INFO] cheese - 查询成功
+[2019-11-03T12:01:01.453] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:105:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T12:01:05.407] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:01:05.408] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572753665408
+[2019-11-03T12:01:05.409] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T12:01:34.020] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:01:34.065] [INFO] cheese - 登录成功
+[2019-11-03T12:01:34.135] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:01:34.135] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572753694135
+[2019-11-03T12:01:34.135] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:01:34.139] [WARN] cheese - 查询数据为空！
+[2019-11-03T12:01:34.140] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:01:34.146] [INFO] cheese - 查询成功
+[2019-11-03T12:01:34.146] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:105:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T12:01:44.607] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:01:44.607] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572753704607
+[2019-11-03T12:01:44.612] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('刘大宝', '哈哈哈是的哈师大', '1', 'admin', 1572753704612)
+[2019-11-03T12:01:44.626] [INFO] cheese - 插入成功
+[2019-11-03T12:01:46.370] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:01:46.371] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572753706371
+[2019-11-03T12:01:46.371] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:01:46.376] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:01:46.382] [INFO] cheese - 查询成功
+[2019-11-03T12:02:51.042] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:02:51.042] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572753771042
+[2019-11-03T12:02:51.042] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:02:51.047] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:02:51.054] [INFO] cheese - 查询成功
+[2019-11-03T12:02:59.140] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:02:59.140] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572753779140
+[2019-11-03T12:02:59.148] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('刘大宝', '哈哈师大是的阿萨德', '1', 'admin', 1572753779148)
+[2019-11-03T12:02:59.159] [INFO] cheese - 插入成功
+[2019-11-03T12:02:59.185] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:02:59.186] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572753779185
+[2019-11-03T12:02:59.186] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:02:59.192] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:02:59.200] [INFO] cheese - 查询成功
+[2019-11-03T12:05:06.449] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:05:06.449] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572753906449
+[2019-11-03T12:05:06.449] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:05:06.455] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:05:06.459] [INFO] cheese - 查询成功
+[2019-11-03T12:06:31.041] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:06:31.041] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572753991041
+[2019-11-03T12:06:31.042] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:06:31.048] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:06:31.053] [INFO] cheese - 查询成功
+[2019-11-03T12:07:19.239] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:07:19.239] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754039239
+[2019-11-03T12:07:19.240] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:07:19.247] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:07:19.252] [INFO] cheese - 查询成功
+[2019-11-03T12:08:52.790] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:08:52.790] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754132790
+[2019-11-03T12:08:52.791] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:08:52.796] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:08:52.802] [INFO] cheese - 查询成功
+[2019-11-03T12:09:04.269] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:09:04.269] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754144269
+[2019-11-03T12:09:04.269] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:09:04.275] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:09:04.281] [INFO] cheese - 查询成功
+[2019-11-03T12:09:15.233] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:09:15.233] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754155233
+[2019-11-03T12:09:15.234] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:09:15.242] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:09:15.248] [INFO] cheese - 查询成功
+[2019-11-03T12:09:29.912] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:09:29.913] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754169913
+[2019-11-03T12:09:29.914] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:09:29.925] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:09:29.931] [INFO] cheese - 查询成功
+[2019-11-03T12:10:29.801] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:10:29.802] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754229802
+[2019-11-03T12:10:29.802] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:10:29.808] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:10:29.812] [INFO] cheese - 查询成功
+[2019-11-03T12:10:29.877] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:10:29.877] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754229877
+[2019-11-03T12:10:29.877] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:10:29.882] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:10:29.888] [INFO] cheese - 查询成功
+[2019-11-03T12:10:29.968] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:10:29.969] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754229969
+[2019-11-03T12:10:29.969] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:10:29.973] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:10:29.977] [INFO] cheese - 查询成功
+[2019-11-03T12:10:41.478] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:10:41.478] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754241478
+[2019-11-03T12:10:41.478] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:10:41.483] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:10:41.489] [INFO] cheese - 查询成功
+[2019-11-03T12:10:43.593] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:10:43.593] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754243593
+[2019-11-03T12:10:43.593] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:10:43.598] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:10:43.603] [INFO] cheese - 查询成功
+[2019-11-03T12:11:04.360] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:11:04.361] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754264361
+[2019-11-03T12:11:04.361] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:11:04.367] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:11:04.372] [INFO] cheese - 查询成功
+[2019-11-03T12:11:11.678] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:11:11.679] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754271679
+[2019-11-03T12:11:11.679] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:11:11.684] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:11:11.688] [INFO] cheese - 查询成功
+[2019-11-03T12:11:41.146] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:11:41.146] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754301146
+[2019-11-03T12:11:41.147] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:11:41.154] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:11:41.159] [INFO] cheese - 查询成功
+[2019-11-03T12:12:02.194] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:12:02.195] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754322195
+[2019-11-03T12:12:02.195] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:12:02.204] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:12:02.212] [INFO] cheese - 查询成功
+[2019-11-03T12:14:04.425] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:14:04.426] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754444426
+[2019-11-03T12:14:04.426] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:14:04.433] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:14:04.439] [INFO] cheese - 查询成功
+[2019-11-03T12:14:16.970] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:14:16.971] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754456971
+[2019-11-03T12:14:16.972] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:14:16.980] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:14:16.984] [INFO] cheese - 查询成功
+[2019-11-03T12:14:35.945] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:14:35.946] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754475946
+[2019-11-03T12:14:35.946] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:14:35.953] [WARN] cheese - 查询数据为空！
+[2019-11-03T12:14:35.954] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:14:35.959] [INFO] cheese - 查询成功
+[2019-11-03T12:14:35.959] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:105:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T12:14:36.114] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:14:36.115] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754476115
+[2019-11-03T12:14:36.115] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:14:36.121] [WARN] cheese - 查询数据为空！
+[2019-11-03T12:14:36.122] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:14:36.129] [INFO] cheese - 查询成功
+[2019-11-03T12:14:36.129] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:105:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T12:14:44.304] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:14:44.304] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572754484304
+[2019-11-03T12:14:44.309] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('测试999', '啥卡仕达', '1', 'admin', 1572754484309)
+[2019-11-03T12:14:44.326] [INFO] cheese - 插入成功
+[2019-11-03T12:14:44.369] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:14:44.369] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754484369
+[2019-11-03T12:14:44.370] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:14:44.376] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:14:44.383] [INFO] cheese - 查询成功
+[2019-11-03T12:14:51.114] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:14:51.114] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754491114
+[2019-11-03T12:14:51.114] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:14:51.119] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:14:51.123] [INFO] cheese - 查询成功
+[2019-11-03T12:15:34.601] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:15:34.602] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754534602
+[2019-11-03T12:15:34.602] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:15:34.607] [WARN] cheese - 查询数据为空！
+[2019-11-03T12:15:34.608] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:15:34.613] [INFO] cheese - 查询成功
+[2019-11-03T12:15:34.613] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:105:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T12:15:34.758] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:15:34.759] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754534759
+[2019-11-03T12:15:34.759] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:15:34.763] [WARN] cheese - 查询数据为空！
+[2019-11-03T12:15:34.763] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:15:34.769] [INFO] cheese - 查询成功
+[2019-11-03T12:15:34.769] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:105:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T12:15:34.929] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:15:34.929] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754534929
+[2019-11-03T12:15:34.930] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:15:34.938] [WARN] cheese - 查询数据为空！
+[2019-11-03T12:15:34.939] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:15:34.947] [INFO] cheese - 查询成功
+[2019-11-03T12:15:34.947] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:105:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T12:15:36.932] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:15:36.933] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572754536933
+[2019-11-03T12:15:36.938] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('测试999', '啥卡仕达', '1', 'admin', 1572754536938)
+[2019-11-03T12:15:36.956] [INFO] cheese - 插入成功
+[2019-11-03T12:15:36.976] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:15:36.977] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754536977
+[2019-11-03T12:15:36.977] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:15:36.983] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:15:36.989] [INFO] cheese - 查询成功
+[2019-11-03T12:15:55.013] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:15:55.013] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754555013
+[2019-11-03T12:15:55.014] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:15:55.020] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:15:55.025] [INFO] cheese - 查询成功
+[2019-11-03T12:16:02.031] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:16:02.032] [INFO] cheese - 操作人： admin， 操作接口： /category/save, 操作时间： 1572754562032
+[2019-11-03T12:16:02.040] [INFO] cheese - 执行sql: insert into category(name, description, status, author, createTime) values ('撒大大', '阿达', '1', 'admin', 1572754562040)
+[2019-11-03T12:16:02.051] [INFO] cheese - 插入成功
+[2019-11-03T12:16:02.073] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:16:02.073] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754562073
+[2019-11-03T12:16:02.074] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:16:02.078] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:16:02.085] [INFO] cheese - 查询成功
+[2019-11-03T12:17:16.504] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:17:16.504] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754636504
+[2019-11-03T12:17:16.505] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:17:16.513] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:17:16.523] [INFO] cheese - 查询成功
+[2019-11-03T12:17:16.675] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:17:16.675] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754636675
+[2019-11-03T12:17:16.676] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:17:16.680] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:17:16.685] [INFO] cheese - 查询成功
+[2019-11-03T12:17:31.783] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:17:31.783] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754651783
+[2019-11-03T12:17:31.783] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:17:31.789] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:17:31.796] [INFO] cheese - 查询成功
+[2019-11-03T12:17:35.134] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:17:35.134] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754655134
+[2019-11-03T12:17:35.134] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:17:35.139] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:17:35.144] [INFO] cheese - 查询成功
+[2019-11-03T12:17:35.302] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:17:35.303] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754655303
+[2019-11-03T12:17:35.303] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:17:35.308] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:17:35.312] [INFO] cheese - 查询成功
+[2019-11-03T12:17:35.497] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:17:35.497] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754655497
+[2019-11-03T12:17:35.498] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:17:35.502] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:17:35.506] [INFO] cheese - 查询成功
+[2019-11-03T12:17:39.840] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T12:17:39.840] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572754659840
+[2019-11-03T12:17:39.841] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T12:17:39.847] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T12:17:39.851] [INFO] cheese - 查询成功

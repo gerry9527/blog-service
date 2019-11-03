@@ -19,7 +19,7 @@ router.use('/login', jsonParser, async (req, res, next) => {
     let msg = new MsgBean('登录失败', 1);
     if (!bean.username || !bean.password) {
         msg.setContent('用户名或密码错误');
-        console.warn(msg);
+        logger.warn(msg);
         res.send(msg);
         return;
     }
@@ -28,45 +28,26 @@ router.use('/login', jsonParser, async (req, res, next) => {
     let result = await checkUsernameRepeat(checkValidSql).catch(err => {
         if (err) {
             msg.setContent(err);
-            console.error(err)
+            logger.error(err)
         }
         res.send(msg);
     })
     if (Object.is(result.count, 1)) {
         let content = { name: bean.username };
         let secretOrPrivateKey = 'test';
-        if(authorization){//已经生成令牌
-            jwt.verify(authorization, secretOrPrivateKey, function (err, data) {
-                if (err) console.log(err)
-                if(data.name && data.name == bean.username){
-                    msg.setCode(0);
-                    msg.setContent('验证token成功！');
-                    msg.setMsg('操作成功！');
-                }else{
-                    msg.setCode(401);
-                    msg.setContent('非法的token！');
-                    msg.setMsg('操作失败！');
-                }
-                res.send(msg);
-                return;
-              })
-        }else{//第一次登陆
-            let token = jwt.sign(content, secretOrPrivateKey, {
-                expiresIn: 24 * 60 * 60
-            });
-            debugger
-            msg.setContent({ token });
-            msg.setCode(0)
-            msg.setMsg('登录成功')
-            // 将用户token放到缓存中
-            global.myCache.set(token, bean.username)
-            res.send(msg)
-            // let sql = `update user set token = '${token}' where username = '${bean.username}'`;
-            // transcation.handlerOperation(sql, msg, res);
-        }
+        let token = jwt.sign(content, secretOrPrivateKey, {
+            expiresIn: 24 * 60 * 60
+        });
+        msg.setContent({ token });
+        msg.setCode(0)
+        msg.setMsg('登录成功')
+        // 将用户token放到缓存中
+        global.myCache.set(token, bean.username)
+        logger.info('登录成功')
+        res.send(msg)
     } else {
         msg.setContent('用户名或密码错误！');
-        console.log(msg);
+        logger.warn(msg);
         res.send(msg);
     }
 });

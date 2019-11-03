@@ -13,6 +13,10 @@ const utils = {
             ip = ip.split(',')[0]
         }
         return ip;
+    },
+    getOperationUser (req) { // 获取操作人信息
+        const authorization = req.headers.authorization
+        return myCache.get(authorization)
     }
 };
 
