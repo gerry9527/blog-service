@@ -102,8 +102,50 @@ router.post('/query', async (req, res, next) => {
 /**
  * 更新类目信息
  */
-router.post('/update', (req, res, next) => {
+router.post('/update', async (req, res, next) => {
+    let bean = req.query
+    let msg = new MsgBean('更新失败', 1)
+    if (!bean.id) {
+        msg.setContent('参数非法')
+        res.send(msg)
+        return
+    }
+    // 获取更新人信息
+    const author = util.getOperationUser(req)
+    let updateTime = new Date().getTime()
+    let updateSql = `update category set name='${bean.name}', description='${bean.description}', status='${bean.status}', updateTime=${updateTime}, updateAuthor='${author}' where id=${bean.id}`
+    logger.info(`执行更新sql：${updateSql}`)
+    let result = await query.handleSql(updateSql).catch(err => {
+        msg.setContent(err)
+        res.send(msg)
+    })
+    logger.info(`执行结果： ${result}`)
+    if (result) {
+        msg.setCode(0)
+        msg.setMsg('更新成功')
+        res.send(msg)
+    }
+})
 
+router.post('/delete', async (req, res, next) => {
+    let bean = req.query
+    let msg = new MsgBean('删除失败', 1)
+    if (!bean.id) {
+        msg.setContent('参数非法')
+        res.send(msg)
+        return
+    }
+    const deleteSql = `delete from category where id=${bean.id}`
+    logger.info(`执行删除语句:${deleteSql}`)
+    let result = await query.handleSql(deleteSql).catch(err => {
+        msg.setContent(err)
+        res.send(msg)
+    })
+    if (result) {
+        msg.setCode(0)
+        msg.setMsg('删除成功')
+        res.send(msg)
+    }
 })
 
 module.exports = router

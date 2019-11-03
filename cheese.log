@@ -2270,3 +2270,481 @@
 [2019-11-03T17:27:55.009] [INFO] cheese - 查询总记录条数：select count (*) as count from category
 [2019-11-03T17:27:55.014] [INFO] cheese - 执行sql:select * from category limit 0, 10
 [2019-11-03T17:27:55.019] [INFO] cheese - 查询成功
+[2019-11-03T17:41:01.019] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T17:41:50.446] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:41:50.447] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:41:50.449] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:41:50.477] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:41:50.482] [INFO] cheese - 查询成功
+[2019-11-03T17:41:50.482] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:41:58.092] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:41:58.092] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:41:58.094] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:41:58.100] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:41:58.104] [INFO] cheese - 查询成功
+[2019-11-03T17:41:58.104] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:43:05.168] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:43:05.169] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:43:05.169] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:43:05.174] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:43:05.179] [INFO] cheese - 查询成功
+[2019-11-03T17:43:05.179] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:44:08.110] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:44:08.111] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:44:08.112] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:44:08.116] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:44:08.120] [INFO] cheese - 查询成功
+[2019-11-03T17:44:08.121] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:44:49.183] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:44:49.183] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:44:49.184] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:44:49.188] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:44:49.192] [INFO] cheese - 查询成功
+[2019-11-03T17:44:49.193] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:44:57.022] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:44:57.022] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:44:57.023] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:44:57.028] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:44:57.031] [INFO] cheese - 查询成功
+[2019-11-03T17:44:57.031] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:45:41.467] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:45:41.467] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:45:41.468] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:45:41.472] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:45:41.477] [INFO] cheese - 查询成功
+[2019-11-03T17:45:41.477] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:45:56.423] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:45:56.450] [INFO] cheese - 登录成功
+[2019-11-03T17:45:56.548] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:45:56.550] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774356550
+[2019-11-03T17:45:56.551] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:45:56.554] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:45:56.557] [INFO] cheese - 查询成功
+[2019-11-03T17:46:00.234] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:00.234] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774360234
+[2019-11-03T17:46:24.671] [INFO] cheese - 执行更新sql：update category set name='测试999' and description='啥卡仕达' and status='0' and updateTime=1572774372220 and updateAuthor='admin' where id=14
+[2019-11-03T17:46:34.371] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:34.372] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774394372
+[2019-11-03T17:46:34.372] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:34.376] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:34.379] [INFO] cheese - 查询成功
+[2019-11-03T17:46:34.602] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:34.602] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774394602
+[2019-11-03T17:46:34.602] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:34.606] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:34.608] [INFO] cheese - 查询成功
+[2019-11-03T17:46:34.899] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:34.900] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774394900
+[2019-11-03T17:46:34.900] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:34.904] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:34.907] [INFO] cheese - 查询成功
+[2019-11-03T17:46:35.095] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:35.096] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774395096
+[2019-11-03T17:46:35.096] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:35.100] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:35.104] [INFO] cheese - 查询成功
+[2019-11-03T17:46:35.264] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:35.264] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774395264
+[2019-11-03T17:46:35.264] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:35.267] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:35.270] [INFO] cheese - 查询成功
+[2019-11-03T17:46:35.438] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:35.438] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774395438
+[2019-11-03T17:46:35.438] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:35.442] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:35.445] [INFO] cheese - 查询成功
+[2019-11-03T17:46:35.618] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:35.619] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774395619
+[2019-11-03T17:46:35.619] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:35.622] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:35.626] [INFO] cheese - 查询成功
+[2019-11-03T17:46:35.798] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:35.798] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774395798
+[2019-11-03T17:46:35.798] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:35.802] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:35.806] [INFO] cheese - 查询成功
+[2019-11-03T17:46:35.978] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:35.978] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774395978
+[2019-11-03T17:46:35.978] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:35.982] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:35.985] [INFO] cheese - 查询成功
+[2019-11-03T17:46:36.158] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:36.158] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774396158
+[2019-11-03T17:46:36.159] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:36.162] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:36.165] [INFO] cheese - 查询成功
+[2019-11-03T17:46:36.337] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:36.337] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774396337
+[2019-11-03T17:46:36.337] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:36.340] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:36.343] [INFO] cheese - 查询成功
+[2019-11-03T17:46:36.520] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:36.521] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774396521
+[2019-11-03T17:46:36.521] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:36.525] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:36.528] [INFO] cheese - 查询成功
+[2019-11-03T17:46:36.698] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:36.698] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774396698
+[2019-11-03T17:46:36.698] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:36.702] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:36.705] [INFO] cheese - 查询成功
+[2019-11-03T17:46:36.892] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:36.892] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774396892
+[2019-11-03T17:46:36.892] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:36.895] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:36.899] [INFO] cheese - 查询成功
+[2019-11-03T17:46:37.056] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:37.057] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774397056
+[2019-11-03T17:46:37.057] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:37.060] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:37.064] [INFO] cheese - 查询成功
+[2019-11-03T17:46:37.265] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:37.265] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774397265
+[2019-11-03T17:46:37.265] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:37.269] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:37.273] [INFO] cheese - 查询成功
+[2019-11-03T17:46:37.410] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:46:37.410] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774397410
+[2019-11-03T17:46:37.411] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:46:37.414] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:46:37.418] [INFO] cheese - 查询成功
+[2019-11-03T17:47:33.445] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:48:21.233] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T17:48:22.914] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:48:22.914] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:48:22.916] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:48:22.941] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:48:22.945] [INFO] cheese - 查询成功
+[2019-11-03T17:48:22.946] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:48:31.755] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:48:31.778] [INFO] cheese - 登录成功
+[2019-11-03T17:48:31.905] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:48:31.906] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774511906
+[2019-11-03T17:48:31.907] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:48:31.910] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:48:31.914] [INFO] cheese - 查询成功
+[2019-11-03T17:48:36.770] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:48:36.770] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774516770
+[2019-11-03T17:48:59.757] [INFO] cheese - 执行更新sql：update category set name='0' and description='啥卡仕达' and status='0' and updateTime=1572774538681 and updateAuthor='admin' where id=14
+[2019-11-03T17:49:36.820] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:50:38.610] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:50:38.610] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774638610
+[2019-11-03T17:50:38.611] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:50:38.616] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:50:38.619] [INFO] cheese - 查询成功
+[2019-11-03T17:50:44.966] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:50:44.967] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774644967
+[2019-11-03T17:50:44.968] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:50:44.972] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:50:44.977] [INFO] cheese - 查询成功
+[2019-11-03T17:51:01.880] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:51:01.880] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774661880
+[2019-11-03T17:51:13.414] [INFO] cheese - 执行更新sql：update category set name='0' and description='啥卡仕达' and status='0' and updateTime=1572774673414 and updateAuthor='admin' where id=14
+[2019-11-03T17:51:13.419] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:51:13.420] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774673420
+[2019-11-03T17:51:23.999] [INFO] cheese - 执行更新sql：update category set name='撒大大' and description='阿达' and status='0' and updateTime=1572774683999 and updateAuthor='admin' where id=15
+[2019-11-03T17:51:24.002] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:51:24.018] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:51:28.068] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:51:28.068] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774688068
+[2019-11-03T17:51:28.069] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:51:28.073] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:51:28.077] [INFO] cheese - 查询成功
+[2019-11-03T17:51:28.830] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:51:28.830] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774688830
+[2019-11-03T17:51:28.830] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:51:28.833] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:51:28.837] [INFO] cheese - 查询成功
+[2019-11-03T17:51:34.226] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:00.496] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T17:54:02.316] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:02.317] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:54:12.661] [INFO] cheese - 执行更新sql：update category set name='0', description='啥卡仕达', status='0', updateTime=1572774852661, updateAuthor='undefined' where id=14
+[2019-11-03T17:54:12.692] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:12.728] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:54:12.739] [INFO] cheese - 登录成功
+[2019-11-03T17:54:12.860] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:12.862] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774852862
+[2019-11-03T17:54:12.863] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:54:12.867] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:54:12.872] [INFO] cheese - 查询成功
+[2019-11-03T17:54:15.465] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:15.466] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774855466
+[2019-11-03T17:54:21.664] [INFO] cheese - 执行更新sql：update category set name='0', description='啥卡仕达', status='1', updateTime=1572774861664, updateAuthor='admin' where id=14
+[2019-11-03T17:54:21.672] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:54:21.674] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:21.674] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774861674
+[2019-11-03T17:54:21.674] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:54:21.678] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:54:21.682] [INFO] cheese - 查询成功
+[2019-11-03T17:54:26.161] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:26.161] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774866161
+[2019-11-03T17:54:29.113] [INFO] cheese - 执行更新sql：update category set name='你好吗', description='123123', status='0', updateTime=1572774869113, updateAuthor='admin' where id=17
+[2019-11-03T17:54:29.126] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:54:46.351] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:46.351] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774886351
+[2019-11-03T17:54:46.351] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:54:46.356] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:54:46.360] [INFO] cheese - 查询成功
+[2019-11-03T17:54:51.297] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:51.298] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774891298
+[2019-11-03T17:54:51.298] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:54:51.302] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:54:51.306] [INFO] cheese - 查询成功
+[2019-11-03T17:54:54.821] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:54.821] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774894821
+[2019-11-03T17:54:54.821] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:54:54.825] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:54:54.828] [INFO] cheese - 查询成功
+[2019-11-03T17:54:54.969] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:54.969] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774894969
+[2019-11-03T17:54:54.970] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:54:54.974] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:54:54.977] [INFO] cheese - 查询成功
+[2019-11-03T17:54:55.680] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:54:55.680] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774895680
+[2019-11-03T17:55:00.159] [INFO] cheese - 执行更新sql：update category set name='刘宝宝', description='你哈哈实打实', status='0', updateTime=1572774900159, updateAuthor='admin' where id=16
+[2019-11-03T17:55:00.165] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:55:00.181] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:00.181] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774900181
+[2019-11-03T17:55:00.182] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:55:00.188] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:55:00.194] [INFO] cheese - 查询成功
+[2019-11-03T17:55:05.120] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T17:55:05.944] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:05.944] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:55:05.946] [INFO] cheese - 执行更新sql：update category set name='0', description='啥卡仕达', status='0', updateTime=1572774905946, updateAuthor='undefined' where id=14
+[2019-11-03T17:55:05.982] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:55:12.510] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:12.534] [INFO] cheese - 登录成功
+[2019-11-03T17:55:12.627] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:12.629] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774912629
+[2019-11-03T17:55:12.629] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:55:12.633] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:55:12.636] [INFO] cheese - 查询成功
+[2019-11-03T17:55:14.405] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:14.406] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774914406
+[2019-11-03T17:55:14.406] [INFO] cheese - 执行更新sql：update category set name='0', description='啥卡仕达', status='1', updateTime=1572774914406, updateAuthor='admin' where id=14
+[2019-11-03T17:55:14.420] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:55:14.435] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:14.435] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774914435
+[2019-11-03T17:55:14.435] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:55:14.439] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:55:14.443] [INFO] cheese - 查询成功
+[2019-11-03T17:55:15.765] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:15.765] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774915765
+[2019-11-03T17:55:15.766] [INFO] cheese - 执行更新sql：update category set name='刘宝宝', description='你哈哈实打实', status='1', updateTime=1572774915766, updateAuthor='admin' where id=16
+[2019-11-03T17:55:15.782] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:55:15.795] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:15.795] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774915795
+[2019-11-03T17:55:15.795] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:55:15.799] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:55:15.803] [INFO] cheese - 查询成功
+[2019-11-03T17:55:16.888] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:16.888] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572774916888
+[2019-11-03T17:55:16.889] [INFO] cheese - 执行更新sql：update category set name='你好吗', description='123123', status='1', updateTime=1572774916889, updateAuthor='admin' where id=17
+[2019-11-03T17:55:16.894] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T17:55:16.906] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:55:16.906] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572774916906
+[2019-11-03T17:55:16.907] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:55:16.910] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:55:16.914] [INFO] cheese - 查询成功
+[2019-11-03T17:58:57.842] [INFO] cheese - Example app listening on port 3000!
+[2019-11-03T17:59:42.448] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:59:42.448] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:59:42.451] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:59:42.480] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:59:42.484] [INFO] cheese - 查询成功
+[2019-11-03T17:59:42.485] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:59:50.233] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:59:50.233] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:59:50.234] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:59:50.238] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:59:50.241] [INFO] cheese - 查询成功
+[2019-11-03T17:59:50.241] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:59:52.936] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:59:52.936] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:59:52.938] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:59:52.942] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:59:52.946] [INFO] cheese - 查询成功
+[2019-11-03T17:59:52.946] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T17:59:55.514] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T17:59:55.515] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T17:59:55.516] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T17:59:55.521] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T17:59:55.526] [INFO] cheese - 查询成功
+[2019-11-03T17:59:55.526] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T18:07:52.029] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:07:52.029] [ERROR] cheese - 登录超时，请重新登录
+[2019-11-03T18:07:52.030] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:07:52.035] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:07:52.041] [INFO] cheese - 查询成功
+[2019-11-03T18:07:52.041] [ERROR] cheese - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (f:\project\blog-service\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (f:\project\blog-service\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (f:\project\blog-service\node_modules\express\lib\response.js:158:21)
+    at query.handleSql.then.result (f:\project\blog-service\router\category.js:95:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-03T18:07:59.864] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:07:59.888] [INFO] cheese - 登录成功
+[2019-11-03T18:07:59.996] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:07:59.998] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775679998
+[2019-11-03T18:07:59.998] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:08:00.002] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:08:00.006] [INFO] cheese - 查询成功
+[2019-11-03T18:08:07.565] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:08:07.565] [INFO] cheese - 操作人： admin， 操作接口： /category/delete, 操作时间： 1572775687565
+[2019-11-03T18:08:07.566] [INFO] cheese - 执行删除语句:delete from category where id=14
+[2019-11-03T18:08:13.765] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:08:13.765] [INFO] cheese - 操作人： admin， 操作接口： /category/delete, 操作时间： 1572775693765
+[2019-11-03T18:08:13.765] [INFO] cheese - 执行删除语句:delete from category where id=14
+[2019-11-03T18:08:21.919] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:08:21.920] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775701919
+[2019-11-03T18:08:21.920] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:08:21.924] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:08:21.928] [INFO] cheese - 查询成功
+[2019-11-03T18:08:22.083] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:08:22.083] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775702083
+[2019-11-03T18:08:22.083] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:08:22.086] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:08:22.090] [INFO] cheese - 查询成功
+[2019-11-03T18:08:22.558] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:08:22.558] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775702558
+[2019-11-03T18:08:22.559] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:08:22.561] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:08:22.565] [INFO] cheese - 查询成功
+[2019-11-03T18:08:22.753] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:08:22.753] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775702753
+[2019-11-03T18:08:22.754] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:08:22.758] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:08:22.762] [INFO] cheese - 查询成功
+[2019-11-03T18:08:42.289] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:08:42.289] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775722289
+[2019-11-03T18:08:42.289] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:08:42.293] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:08:42.297] [INFO] cheese - 查询成功
+[2019-11-03T18:08:57.070] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:08:57.070] [INFO] cheese - 操作人： admin， 操作接口： /category/delete, 操作时间： 1572775737070
+[2019-11-03T18:08:57.071] [INFO] cheese - 执行删除语句:delete from category where id=15
+[2019-11-03T18:09:09.251] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:09:09.251] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775749251
+[2019-11-03T18:09:09.252] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:09:09.257] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:09:09.262] [INFO] cheese - 查询成功
+[2019-11-03T18:09:10.151] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:09:10.151] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775750151
+[2019-11-03T18:09:10.151] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:09:10.156] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:09:10.160] [INFO] cheese - 查询成功
+[2019-11-03T18:09:15.287] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:09:15.288] [INFO] cheese - 操作人： admin， 操作接口： /category/delete, 操作时间： 1572775755288
+[2019-11-03T18:09:15.288] [INFO] cheese - 执行删除语句:delete from category where id=17
+[2019-11-03T18:09:15.318] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:09:15.318] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775755318
+[2019-11-03T18:09:15.319] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:09:15.322] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:09:15.326] [INFO] cheese - 查询成功
+[2019-11-03T18:09:18.321] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:09:18.321] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572775758321
+[2019-11-03T18:09:18.322] [INFO] cheese - 执行更新sql：update category set name='刘宝宝', description='你哈哈实打实', status='0', updateTime=1572775758322, updateAuthor='admin' where id=16
+[2019-11-03T18:09:18.329] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T18:09:18.342] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:09:18.342] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775758342
+[2019-11-03T18:09:18.342] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:09:18.346] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:09:18.350] [INFO] cheese - 查询成功
+[2019-11-03T18:09:19.137] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:09:19.137] [INFO] cheese - 操作人： admin， 操作接口： /category/update, 操作时间： 1572775759137
+[2019-11-03T18:09:19.138] [INFO] cheese - 执行更新sql：update category set name='刘宝宝', description='你哈哈实打实', status='1', updateTime=1572775759138, updateAuthor='admin' where id=16
+[2019-11-03T18:09:19.149] [INFO] cheese - 执行结果： [object Object]
+[2019-11-03T18:09:19.161] [INFO] cheese - 请求地址: ::ffff:192.168.159.1
+[2019-11-03T18:09:19.161] [INFO] cheese - 操作人： admin， 操作接口： /category/query, 操作时间： 1572775759161
+[2019-11-03T18:09:19.161] [INFO] cheese - 查询总记录条数：select count (*) as count from category
+[2019-11-03T18:09:19.164] [INFO] cheese - 执行sql:select * from category limit 0, 10
+[2019-11-03T18:09:19.169] [INFO] cheese - 查询成功
