@@ -42,7 +42,7 @@ router.use('/login', jsonParser, async (req, res, next) => {
         msg.setCode(0)
         msg.setMsg('登录成功')
         // 将用户token放到缓存中
-        global.myCache.set(token, bean.username)
+        myCache.set(token, bean.username)
         logger.info('登录成功')
         res.send(msg)
     } else {

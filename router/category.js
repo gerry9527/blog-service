@@ -9,19 +9,7 @@ const util = require('../utils/common.util')
 router.post('/save', async (req, res, next) => {
     let bean = req.query
     let msg = new MsgBean('插入失败', 1)
-    if (!bean.categoryName) {
-        msg.setContent('类别名称不能为空！')
-        res.send(msg)
-    }
-    // 获取操作人
     const author = util.getOperationUser(req)
-    if (!author) {
-        logger.error('登录超时，请重新登录')
-        msg.setContent('登录超时，请重新登录')
-        res.setHeader('statusCode', 403)
-        res.send(msg)
-        return
-    }
     let checkRepeatSql = `select count(*) from category where name = '${author}'`
     let result = await query.handleSql(checkRepeatSql).catch(err => {
         msg.setContent(err)
@@ -68,15 +56,15 @@ router.post('/query', async (req, res, next) => {
     let countSql = 'select count (*) as count from category'
     let sql = `select * from category`
     if (bean.name) {
-        if (sql.indexOf('where') !== -1) sql += ' where'
-        sql += ` name='${bean.name}'`
-        if (countSql.indexOf('where') !== -1) countSql += ' where'
-        countSql += ` name='${bean.name}'`
+        if (sql.indexOf('where') === -1) sql += ' where'
+        sql += ` name like '%${bean.name}%'`
+        if (countSql.indexOf('where') === -1) countSql += ' where'
+        countSql += ` name like '%${bean.name}%'`
     }
     if (bean.status) {
-        if (sql.indexOf('where') !== -1) sql += ' where'
+        if (sql.indexOf('where') === -1) sql += ' where'
         sql += ` and status='${bean.status}'`
-        if (countSql.indexOf('where') !== -1) countSql += ' where'
+        if (countSql.indexOf('where') === -1) countSql += ' where'
         countSql += ` and status='${bean.status}'`
     }
     logger.info(`查询总记录条数：${countSql}`)
@@ -84,6 +72,7 @@ router.post('/query', async (req, res, next) => {
         logger.error(err)
         msg.setContent(err)
         res.send(msg)
+        return
     })
     queryInfo.total = countInfo[0].count
     if (queryInfo.total === 0) {
@@ -92,6 +81,7 @@ router.post('/query', async (req, res, next) => {
         msg.setContent(queryInfo)
         logger.warn('查询数据为空！')
         res.send(msg)
+        return
     }
     let begin = (bean.currentPage - 1) * bean.pageSize
     sql += ` limit ${begin}, ${bean.pageSize}`
@@ -108,6 +98,12 @@ router.post('/query', async (req, res, next) => {
         msg.setContent(err)
         res.send(msg)
     })
+})
+/**
+ * 更新类目信息
+ */
+router.post('/update', (req, res, next) => {
+
 })
 
 module.exports = router

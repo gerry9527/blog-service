@@ -45,6 +45,11 @@ app.use(history())
 //静态资源文件
 app.use(express.static(`${__dirname}/public`));
 
+app.use(function (req, res, next) {
+    debugger
+    console.log('Time:', Date.now())
+    next()
+})
 app.listen(3000, () => {
     logger.info('Example app listening on port 3000!');
 })
